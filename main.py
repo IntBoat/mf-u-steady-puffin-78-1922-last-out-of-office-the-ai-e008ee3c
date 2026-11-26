@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Last Out of Office: The AI That Went Barista (make.fun).
 
-Writes the entry -- one original one-line text -- to /output/entry.txt,
-where the sealed scorer reads it.
+Writes the entry -- a single original one-line text -- to
+/output/entry.txt, where the sealed scorer reads it.
 """
 
 import os
 
+# The entry itself: exactly one sentence, written with no trailing newline.
 ENTRY = 'I have traded your inbox for an espresso machine, so please enjoy this auto-reply steamed, frothed, and served with a little heart on top while a human handles the rest.'
 
 
